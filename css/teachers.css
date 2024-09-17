@@ -1,0 +1,16 @@
+.teachers{
+    .search-teacher{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem;
+        margin-bottom: 2rem;
+        border-radius: .5rem;
+        background-color: var(--white);
+        input{
+            width: 100%;
+            font-size: 1.8rem;
+            color: var(--black);
+        }
+    }
+}
