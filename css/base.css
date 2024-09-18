@@ -68,7 +68,8 @@ section {
 
 .inline-btn,
 .btn,
-.inline-option-btn {
+.inline-option-btn,
+.inline-delete-btn {
   background-color: var(--main-color);
   color: #fff;
   margin-top: 1rem;
@@ -77,11 +78,16 @@ section {
   border-radius: 0.5rem;
   transition: 0.1s all;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .option-btn,
 .inline-option-btn {
   background-color: var(--orange);
+}
+
+.inline-delete-btn{
+  background-color: var(--red);
 }
 
 .btn,
@@ -92,13 +98,15 @@ section {
 
 .inline-btn:hover,
 .btn:hover,
-.inline-option-btn:hover {
+.inline-option-btn:hover,
+.inline-delete-btn:hover {
   background-color: var(--black);
   color: var(--white);
 }
 
 .inline-btn,
-.inline-option-btn {
+.inline-option-btn,
+.inline-delete-btn {
   display: inline-block;
 }
 
@@ -144,7 +152,7 @@ section {
     }
     .search-form {
       width: 50rem;
-      border-radius: 1rem;
+      border-radius: .5rem;
       display: flex;
       align-items: center;
       gap: 2rem;
@@ -180,7 +188,7 @@ section {
         color: var(--black);
         width: 4.5rem;
         height: 4.5rem;
-        border-radius: 1rem;
+        border-radius: .5rem;
         cursor: pointer;
         line-height: 4.4rem;
         background-color: var(--light-bg);
